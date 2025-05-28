@@ -38,7 +38,7 @@ export default function HeroSlideshow() {
           }`}
         >
           <Image
-            src={slide.image || "/hand.jpg"}
+            src={slide.image || "/hand.jpg?height=600&width=1200"}
             alt={slide.alt}
             fill
             className="object-cover"
@@ -62,9 +62,11 @@ export default function HeroSlideshow() {
           <p className="text-xl md:text-2xl mb-8 opacity-90">
             不登校経験者だからこそ分かる、お子様の「見えない気持ち」に寄り添います
           </p>
-          <button className="bg-white text-orange-500 hover:bg-gray-50 font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 text-lg">
-            LINEで相談する
-          </button>
+          <a href="https://lin.ee/gbOMc0n" target="_blank" rel="noopener noreferrer">
+            <button className="bg-white text-orange-500 hover:bg-gray-50 font-semibold py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 text-lg">
+              LINEで相談する
+            </button>
+          </a>
         </div>
       </div>
 

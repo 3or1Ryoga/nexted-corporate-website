@@ -18,7 +18,7 @@ export default function Contact() {
     {
       icon: <Mail className="h-6 w-6 text-orange-500" />,
       label: "運営メール",
-      value: "k0tar0.n0198@gmail.com",
+      value: "viceangler@gmail.com",
       description: "一般的なお問い合わせはこちら",
     },
   ]
@@ -87,9 +87,11 @@ export default function Contact() {
                 <br />
                 お友達登録後、お気軽にメッセージをお送りください。
               </p>
-              <button className="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
-                LINEで相談する
-              </button>
+              <a href="https://lin.ee/gbOMc0n" target="_blank" rel="noopener noreferrer">
+                <button className="bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-8 rounded-lg transition-all duration-300 transform hover:scale-105">
+                  LINEで相談する
+                </button>
+              </a>
               <p className="text-sm text-gray-500 mt-4">※LINEのURLは後から設定可能です</p>
             </div>
           </FadeInSection>
